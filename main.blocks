@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="Ij:KT9P7@|YZ(F76aQgM" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="_dE9(/%]fE~4zD-xBgCM"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="J+J$mK+4kZ6E7O757Pdk"/></value><statement name="DO0"><block type="device_show_leds" id="V5s$98q;Axjn[c8;9]Nv"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="2+Ih~MQVmCafk8Elsx+1"/></value><statement name="DO1"><block type="device_show_leds" id="7y):bvVmH|O7Y45FF+wT"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="3pjw!vbaBk3fq}c3)],0"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></statement></block></xml>
